@@ -2,7 +2,8 @@ language: python
 python:
   - "3.6"
 install:
-  - pip install coveralls
+  - pip3 install colored
+  - pip3 install coveralls
 script: 
   - coverage run test_rpn.py
 after_success:
