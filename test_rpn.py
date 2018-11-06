@@ -1,5 +1,5 @@
 import unittest
-
+import colored
 import rpn
 
 class TestBasics(unittest.TestCase):
