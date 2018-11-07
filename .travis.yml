@@ -5,7 +5,7 @@ install:
   - pip3 install colored
   - pip3 install coveralls
 script: 
-  - coverage run -m unittest test_rpn.py
+  - coverage run --source /mnt/c/Users/"Hannah Sorensen"/Documents/eecs398/Adv8 -m unittest test_rpn.py
 after_success:
   coveralls
 
