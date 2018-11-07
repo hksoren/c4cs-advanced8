@@ -13,6 +13,12 @@ operators = {
     '^': operator.pow,
 }
 
+def uncoveredfunction():
+    a = 1
+    b = 2
+    c = a + b 
+    return c
+
 def calculate(myarg):
     stack = list()
     for token in myarg.split():
