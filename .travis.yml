@@ -5,7 +5,7 @@ install:
   - pip3 install colored
   - pip3 install coveralls
 script: 
-  - coverage run -m unittest > nul
+  - coverage run make
 after_success:
   coveralls
 
