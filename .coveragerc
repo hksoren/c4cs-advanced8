@@ -1,6 +1,3 @@
 [run]
 omit =
 	*/.local/*
-include = 
-	*Adv8/rpn.py
-	*Adv8/test_rpn.py
