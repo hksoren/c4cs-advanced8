@@ -3,9 +3,10 @@ python:
   - "3.6"
 install:
   - pip3 install colored
+  - pip3 install unittest
   - pip3 install coveralls
 script: 
-  - coverage run test_rpn.py
+  - coverage run -m unittest > nul
 after_success:
   coveralls
 

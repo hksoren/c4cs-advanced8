@@ -1,5 +1,3 @@
-# c4cs-advanced8
-
 
 [![Build Status](https://travis-ci.org/hksoren/c4cs-advanced8.png)](https://travis-ci.org/hksoren/c4cs-advanced8)
 
