@@ -8,5 +8,3 @@ script:
   - coverage run -m unittest test_rpn.py
 after_success:
   coveralls
-
-#script: - python3 -m unittest
